@@ -1,9 +1,9 @@
-Use this package to send SMS with [SmsGlobal](https://www.smsglobal.com/) in `Laravel 7` or `Laravel 8`
+Use this package to send SMS with [SmsGlobal](https://www.smsglobal.com/) in `Laravel 10`.
 
 ## Installation
 
 ```
-composer require salamwaddah/laravel-smsglobal-notifications-channel
+composer require ahasha-dev/laravel-smsglobal-notifications-channel
 ```
 
 ## Configure

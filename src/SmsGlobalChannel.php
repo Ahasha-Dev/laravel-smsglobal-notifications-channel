@@ -1,7 +1,5 @@
 <?php
 
-/** @noinspection ALL */
-
 namespace SalamWaddah\SmsGlobal;
 
 use Illuminate\Notifications\Notification;
