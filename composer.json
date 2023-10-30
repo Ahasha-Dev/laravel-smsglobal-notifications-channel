@@ -1,5 +1,5 @@
 {
-	"name": "salamwaddah/laravel-smsglobal-notifications-channel",
+	"name": "ahasha-dev/laravel-smsglobal-notifications-channel",
 	"description": "SmsGlobal notification channel for Laravel 7, 8, 9",
 	"type": "library",
 	"license": "MIT",
@@ -8,14 +8,20 @@
 		"smsglobal"
 	],
 	"support": {
-		"issues": "https://github.com/salamwaddah/laravel-smsglobal-notifications-channel/issues",
-		"source": "https://github.com/salamwaddah/laravel-smsglobal-notifications-channel"
+		"issues": "https://github.com/Ahasha-Dev/laravel-smsglobal-notifications-channel/issues",
+		"source": "https://github.com/Ahasha-Dev/laravel-smsglobal-notifications-channel"
 	},
 	"authors": [
 		{
 			"name": "Salam Waddah",
 			"email": "salamwaddah@gmail.com",
 			"homepage": "https://salamwaddah.com/",
+			"role": "Developer"
+		},
+		{
+			"name": "Evgeny Tronchuk",
+			"email": "evgenytronchuk@gmail.com",
+			"homepage": "https://tronchuk.com/",
 			"role": "Developer"
 		}
 	],
