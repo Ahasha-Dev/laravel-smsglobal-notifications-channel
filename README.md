@@ -50,13 +50,13 @@ class OrderPaid extends Notification
         ];
     }
 
-    public function toSmsGlobal($notifiable): SmsGlobalMessage
+    public function toSmsGlobal(): SmsGlobalMessage
     {
         $message = 'Order paid, Thank you for your business!';
 
         $smsGlobal = new SmsGlobalMessage();
 
-        return $smsGlobal->to($notifiable->phone)->content($message);
+        return $smsGlobal->content($message);
     }
 }
 ```
@@ -75,15 +75,13 @@ Notification::send(
 The notifiable argument in `toSmsGlobal` of your notification class should expect the same data type you passed to
 the `Notification` facade.
 
-In this example, we passed the phone number as a `string` because we don't have a "user" and so `toSmsGlobal` should expect a `string`.
-
 ```php
-public function toSmsGlobal(string $phoneNumber): SmsGlobalMessage
+public function toSmsGlobal(): SmsGlobalMessage
 {
     $message = 'Order paid, Thank you for your business!';
 
     $smsGlobal = new SmsGlobalMessage();
 
-    return $smsGlobal->to($phoneNumber)->content($message);
+    return $smsGlobal->content($message);
 }
 ```
