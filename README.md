@@ -3,7 +3,7 @@ Use this package to send SMS with [SmsGlobal](https://www.smsglobal.com/) in `La
 ## Installation
 
 ```
-composer require ahasha-dev/laravel-smsglobal-notifications-channel
+composer require lookberry/laravel-smsglobal-notifications-channel
 ```
 
 ## Configure

@@ -1,5 +1,5 @@
 {
-	"name": "ahasha-dev/laravel-smsglobal-notifications-channel",
+	"name": "lookberry/laravel-smsglobal-notifications-channel",
 	"description": "SmsGlobal notification channel for Laravel 7, 8, 9",
 	"type": "library",
 	"license": "MIT",
@@ -8,8 +8,8 @@
 		"smsglobal"
 	],
 	"support": {
-		"issues": "https://github.com/Ahasha-Dev/laravel-smsglobal-notifications-channel/issues",
-		"source": "https://github.com/Ahasha-Dev/laravel-smsglobal-notifications-channel"
+		"issues": "https://github.com/lookberry/laravel-smsglobal-notifications-channel/issues",
+		"source": "https://github.com/lookberry/laravel-smsglobal-notifications-channel"
 	},
 	"authors": [
 		{
